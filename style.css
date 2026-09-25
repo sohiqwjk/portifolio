@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Instrument Serif", serif;
+}
+:root{
+    --bg-color: #FFFFFF;
+    --conteiner-color: #F9F9F9;
+    --text-color: #000000;
+    --pri-color: #678C99;
+    --sec-color: #B8C7CC;
+    --ter-color: #F4D5E2;
+    --quar-color: #b98098;
+
+}
+header{
+    width: 100%;
+    height: 10vh;
+    align-content: center;
+    justify-items: center;
+}
+nav{
+    display: flex;
+    margin: 10px 0 10px 0;
+    font-size: 24px;
+    height: 3vh;
+    width: 90%;
+    align-items: center;
+    color: var(--text-color);
+}
+#menu-inicio{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+#menu-inicio>li{
+    padding-right: 50px;
+    list-style-type: none;
+}
+#menu-fim{
+    margin-left: auto;
+}
+main{
+    display: flex;
+    height: 80vh;
+    padding: 0 150px 0 150px;
+    margin-top: 50px;
+}
+main p{
+    margin: auto;
+}
+#apresentacao{
+    height: auto;
+    width: 50%;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#container-nome{
+    font-size: 90px;
+    display: flex;
+    flex-direction: column;
+}
+#nome1{
+    color: var(--pri-color);
+    line-height: 90%;
+}
+#nome2{
+    color: var(--sec-color);
+    line-height: 90%;
+    margin-left: auto;
+}
+#descricao{
+    font-size: 24px;
+    background-color: var(--ter-color);
+    border-radius: 15px;
+    height: 40vh;
+    align-content: center;
+    padding: 0 50px 0 50px;
+    margin-top: 50px;
+}
+#icones{
+    margin-top: 20px;
+}
+.icones_redes_sociais{
+    height: 70%;
+    margin: 10px;
+}
