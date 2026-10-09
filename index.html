@@ -10,14 +10,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
 
     <script src="script.js" defer></script>
-    <title>Portifólio</title>
+    <title>Novo Portifólio</title>
 </head>
 <body>
+    <div id="voltar">
+    </div>
     <header>
         <nav>
             <ul id="menu-inicio">
-                <li>Sobre mim</li>
-                <li>Habilidades</li>
+                <li><a href="#voltar">Sobre mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
                 <li>Projetos</li>
                 <li>Contato</li>
             </ul>
@@ -26,12 +28,11 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main id="principal">
         <section id="apresentacao">
             <div id="container-nome">
                 <div id="nome1">Sophia Reis</div> 
                 <div id="nome2">Oliveira Santos</div>
-                
             </div>
             <div id="descricao">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -42,5 +43,22 @@
             </div>
         </section>
     </main>
+    <section id="habilidades">
+        <div id="container-habilidades">
+            <div id="hard-skills" class="container-skills">
+                <h1>
+                    Hard Skills
+                </h1>
+            </div>
+            <div id="soft-skills" class="container-skills">
+                <h1>
+                    Soft Skills
+                </h1>
+            </div>
+        </div>
+    </section>
+    <section id="projetos">
+
+    </section>
 </body>
 </html>
